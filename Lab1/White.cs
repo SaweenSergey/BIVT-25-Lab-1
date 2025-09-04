@@ -8,6 +8,11 @@
 
             // code here
 
+            if (d > 0) 
+            {
+                answer = true;
+            }
+
             // end
 
             return answer;
@@ -17,6 +22,11 @@
             bool answer = false;
 
             // code here
+
+            if (n % 2 == 0) 
+            {
+                answer = true;
+            }
 
             // end
 
@@ -28,6 +38,15 @@
 
             // code here
 
+            if (a > b)
+            {
+                answer = a;
+            }
+            else
+            {
+                answer = b;
+            }
+
             // end
 
             return answer;
@@ -37,6 +56,15 @@
             double answer = 0;
 
             // code here
+
+            if (Math.Abs(d) < Math.Abs(f)) 
+            {
+                answer = d;
+            }
+            else
+            {
+                answer = f;
+            }
 
             // end
 
