@@ -44,7 +44,7 @@ namespace Lab1
             double dd;
             fulld = (int)d;
             dd = fulld;
-            if (dd != d)
+            if (dd != Math.Round(d, 4))
             {
                 answer = true;
             }
